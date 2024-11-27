@@ -1,0 +1,21 @@
+[user]
+#	name = my name
+#	email = myname@wherever.net
+[alias]
+	co = checkout
+	st = status
+	br = branch
+    lgn = log --oneline --graph --all
+    lgo = log --oneline
+    lg = log --color --graph --pretty=format:'%C(bold yellow)%h%Creset -%C(auto)%d%Creset %s %C(green)(%cr)%Creset %C(blue)<%an>%Creset' --abbrev-commit --date=relative
+    lga = log --oneline --graph --all --pretty=format:'%C(auto) %h -%d %Creset%s %C(green)(%ai) %C(blue)<%an>'
+    lgf = log --oneline --graph --all --pretty=format:'%C(auto) %h -%d %Creset%s %C(green)(%ai) %C(blue)<%an>' --name-status
+	rshow = remote show origin
+	bvv = branch -vv
+	bva = branch -va
+	bvva = branch -vva
+[core]
+#	editor = vi
+#	excludesfile = /your/path/to/.gitignore   # e.g. /Users/yourName/.gitignore
+[color]
+	ui = true
