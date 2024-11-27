@@ -1,1 +1,0 @@
-latency comes in when??
